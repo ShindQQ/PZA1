@@ -29,6 +29,8 @@ while (true)
         default: break;
     };
 
+    Console.WriteLine();
+
     if (highLevel)
     {
         var timeNow = DateTime.UtcNow;
@@ -50,4 +52,6 @@ while (true)
         highLevel = false;
         Console.WriteLine("Pump has been deactivated");
     }
+
+    Console.WriteLine();
 }
